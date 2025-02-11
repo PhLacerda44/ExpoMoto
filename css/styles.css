@@ -15,7 +15,7 @@
   box-sizing: border-box;
 }
 
-/* ***Event form*** */
+/* Event form */
 #event-subscription {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/moto5.jpg");
   background-position: center;
@@ -127,4 +127,155 @@
   }
 
   
+}
+/* ____*/
+/* Main 1 */
+
+.motos {
+  background: var(--text-color);
+  margin: 30px;
+
+}
+
+
+.titulo {
+  background: var(--secondary);
+  text-align: center;
+  padding: 25px;
+  font-size: 25px;
+  margin-bottom: 30px;
+
+}
+
+.motocicleta img {
+  width: 200px;
+  height: 200px;
+  border-radius:9999px;
+  margin: 20px;
+
+}
+.conteinersao {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.motocicleta {
+  flex-direction: column;
+
+}
+
+/* ___ *
+/* Main 2 */
+
+.container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hd1.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-color);
+  padding: 20px;
+}
+
+.local {
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+.local p {
+  margin: 10px;
+}
+
+.container h1 {
+  color: var(--primary);
+  text-align: center;
+margin-bottom: 30px;
+}
+
+.container p {
+  margin-bottom: 30px;
+}
+
+/* _____ */
+/* Main 3 */
+.bloco {
+  margin: 20px;
+
+}
+.bloco img {
+ width: 700px;
+}
+.imagem {
+  display: flex;
+}
+
+.imagem img {
+  margin: 20px;
+}
+
+.textinho span {
+  margin-top: 250px;
+  font-size: 35px;
+}
+
+.b2 {
+  margin: 30px;
+}
+.b2 img {
+  margin-left: 300px;
+
+
+}
+
+.b2 .texto {
+  margin-top: 100px;
+  font-size: 18px;
+}
+
+.texto li {
+  margin: 15px;
+  width: 200px;
+}
+
+
+/* _____ */
+/* footer */
+
+.end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/moto6.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  
+}
+.end h2 {
+  color: var(--text-color);
+  margin-bottom: 30px
+}
+
+.end a {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 20px;
+  background: var(--primary);
+  opacity: 80%;
+
+}
+
+footer {
+  background: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  font-size: 15px;
+}
+
+footer p {
+  margin: 7px;
 }
